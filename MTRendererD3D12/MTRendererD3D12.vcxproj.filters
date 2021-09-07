@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{ee2040c5-1a5a-4d5e-9b1c-270165cd9926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{58d16b45-41c8-4fa1-8811-10e3013ea3df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\MTRendererD3D12.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\MTRendererD3D12.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stdafx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="source\simple_shaders.hlsl">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
