@@ -1052,7 +1052,7 @@ void MTRenderer::CommitSceneProxy() {
 
 void MTRenderer::RestartRenderThread() {
     {
-        std::unique_lock<std::mutex> lock(syncMainThreadMtx);
+        std::lock_guard<std::mutex> lock(syncMainThreadMtx);
         mainTheadReady = true;
     }
 
@@ -1063,7 +1063,7 @@ void MTRenderer::RestartRenderThread() {
 
 void MTRenderer::RestartMainThread() {
     {
-        std::unique_lock<std::mutex> lock(syncRenderThreadMtx);
+        std::lock_guard<std::mutex> lock(syncRenderThreadMtx);
         renderTheadReady = true;
     }
 

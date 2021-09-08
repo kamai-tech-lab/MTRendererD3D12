@@ -1,0 +1,2 @@
+^D:\PROJECT\MYWORKS\MYPROJECTS\MTRENDERERD3D12\MTRENDERERD3D12\SOURCE\SIMPLE_SHADERS.HLSL
+copy source\simple_shaders.hlsl "D:\Project\MyWorks\MyProjects\MTRendererD3D12\bin\x64\Debug\" > NUL

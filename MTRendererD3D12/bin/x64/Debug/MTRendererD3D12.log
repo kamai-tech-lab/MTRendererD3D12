@@ -1,0 +1,3 @@
+﻿  Performing Custom Build Tools
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): warning MSB8065: Custom build for item "source\simple_shaders.hlsl" succeeded, but specified output "d:\project\myworks\myprojects\mtrendererd3d12\bin\x64\debug\simple_shaders" has not been created. This may cause incremental build to work incorrectly.
+  MTRendererD3D12.vcxproj -> D:\Project\MyWorks\MyProjects\MTRendererD3D12\bin\x64\Debug\MTRendererD3D12.exe
